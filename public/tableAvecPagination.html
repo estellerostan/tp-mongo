@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table Avec Pagination</title>
+    <script src="js/crudAvecFetchAvecTable.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="reponseGET" class="response"></div>
+<div>GET en fetch/Ajax correspondant à la première requête de l'exemple précédent: <button onclick="getRequest1();">Clicker</button></div>
+<!--<label>-->
+    <!--query parameters : -->
+    <!--<input id="queryParam" type="text" placeholder="nom=Sushi">-->
+<!--</label>-->
+<div id="reponseGETenTableau" class="response"></div>
+<button id="previous" onclick="getRequest5(this.id);">Previous</button>
+<button id="next" onclick="getRequest5(this.id);">Next</button>
+</body>
+</html>
